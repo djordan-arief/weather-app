@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search{
+    width: 100px;
+    height: 30px;
+    border-radius: 0.5rem;
+}
+
+.search:hover{
+    background-color: gray;
+}
+
+.city-search{
+    width: 200px;
+    height: 30px;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+
+.weather-result-container{
+    margin-top: 20px;
+    width: 60%;
+    height: 400px;
+    position: relative;
+}
+
+.weather-result-container-toggle{
+    margin-top: 20px;
+    width: 60%;
+    height: 400px;
+    background-color: white;
+    position: relative;
+}
+
+.city-name{
+    position: absolute; 
+    left: 35%;
+    top: 5px;
+}
+
+.information{
+    position: absolute; 
+    top: 20%;
+    margin-left: 10px;
+}
+
+p{
+    margin-top: 20px;
+}
